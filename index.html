@@ -6,25 +6,12 @@
     <title>Autenticación</title>
     <link rel="stylesheet" href="estilos.css">
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyD6hGYyy1ujzD5EcSK3A9n8X-22O2Pdtfg",
-    authDomain: "autentifica-2f286.firebaseapp.com",
-    projectId: "autentifica-2f286",
-    storageBucket: "autentifica-2f286.appspot.com",
-    messagingSenderId: "881373419222",
-    appId: "1:881373419222:web:e6516672994e6dcc945b77"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
+   <!-- Carga el núcleo de Firebase JS SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <!-- Agrega el manejo de autenticación. -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js">
+    </script>
+    <script src="js/init.js"></script>
   </head>
   <body>
     <h1>Autenticación</h1>
